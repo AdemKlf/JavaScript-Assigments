@@ -63,4 +63,4 @@ console.log("*****ASSİGMENT-1*****")
 const income  = +prompt("Enter İncome:");
 const expense = +prompt("Enter Expense:");
 
-`${income-expense}` >= 5500 && `${income}` >= `${expense}` ? console.log("Kredi Verilir") : console.log("Kredi Verilmez");
+`${income-expense}` >= 5500 && `${income}` >= `${expense}` ? console.log("Credit is Given") : console.log("Credit not is Given");
