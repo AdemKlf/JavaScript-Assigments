@@ -23,21 +23,32 @@ console.log("*****ASSİGMENT-1*****")
 let day = +prompt("Enter days between 1-7 ")
 
 switch(day){
-    case 1: alert(`Today is Monday`);
+    case 1: alert(`InClass`);
         break;
-    case 2: alert(`Today is Tuesday`);
+    case 2: alert(`InClass`);
         break;
-    case 3: alert(`Today is Wednesday`);
+    case 3: alert(`InClass`);
         break;
-    case 4: alert(`Today is Thursday`);
+    case 4: alert(`InClass`);
         break;
-    case 5: alert(`Today is Friday`);
+    case 5: alert(`Teamwork`);
         break;
-    case 6: alert(`Today is Saturday`);
+    case 6: alert(`InClass + Workshop`);
         break;
-    case 7: alert(`Today is Sunday`);
+    case 7: alert(`Self-Study`);
     default:
         alert("Should be between day 1-7")
         break;
 }
 // console.log(outday);
+
+// const mass = {
+//     aylik: 1000, }
+
+// console.log(mass)
+
+// const maas = mass;
+
+// maas.aylik = (`${mass.aylik * 5}`);
+// console.log(mass);
+
