@@ -52,8 +52,15 @@ console.log("*****ASSİGMENT-1*****")
 // maas.aylik = (`${mass.aylik * 5}`);
 // console.log(mass);
 
-Salary Increase
+// Salary Increase
 
-const salary = +prompt("Enter maas ")
-const newsalary =  salary <= 5500 ? `${salary*1.5}`:`${salary*1.1}`;
-console.log(`İncreased Salary ${newsalary}₺`);
+// const salary = +prompt("Enter maas ")
+// const newsalary =  salary <= 5500 ? `${salary*1.5}`:`${salary*1.1}`;
+// console.log(`İncreased Salary ${newsalary}₺`);
+
+//credit risk program
+
+const income  = +prompt("Enter İncome:");
+const expense = +prompt("Enter Expense:");
+
+`${income-expense}` >= 5500 && `${income-expense}` <= 5500 ? console.log("Kredi Verilir") : console.log("Kredi Verilmez");
