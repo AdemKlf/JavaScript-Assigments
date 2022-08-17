@@ -20,26 +20,26 @@ console.log("*****ASSİGMENT-1*****")
 
 //Week Days
 
-let day = +prompt("Enter days between 1-7 ")
+// let day = +prompt("Enter days between 1-7 ")
 
-switch(day){
-    case 1: alert(`InClass`);
-        break;
-    case 2: alert(`InClass`);
-        break;
-    case 3: alert(`InClass`);
-        break;
-    case 4: alert(`InClass`);
-        break;
-    case 5: alert(`Teamwork`);
-        break;
-    case 6: alert(`InClass + Workshop`);
-        break;
-    case 7: alert(`Self-Study`);
-    default:
-        alert("Should be between day 1-7")
-        break;
-}
+// switch(day){
+//     case 1: alert(`InClass`);
+//         break;
+//     case 2: alert(`InClass`);
+//         break;
+//     case 3: alert(`InClass`);
+//         break;
+//     case 4: alert(`InClass`);
+//         break;
+//     case 5: alert(`Teamwork`);
+//         break;
+//     case 6: alert(`InClass + Workshop`);
+//         break;
+//     case 7: alert(`Self-Study`);
+//     default:
+//         alert("Should be between day 1-7")
+//         break;
+// }
 // console.log(outday);
 
 // const mass = {
@@ -52,3 +52,8 @@ switch(day){
 // maas.aylik = (`${mass.aylik * 5}`);
 // console.log(mass);
 
+Salary Increase
+
+const maas = +prompt("Enter maas ")
+const newmaas =  maas <= 5500 ? `${maas*1.5}`:`${maas*1.1}`;
+console.log(`İncreased Salary ${newmaas}₺`);
