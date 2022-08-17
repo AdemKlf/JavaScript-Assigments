@@ -54,6 +54,6 @@ console.log("*****ASSİGMENT-1*****")
 
 Salary Increase
 
-const maas = +prompt("Enter maas ")
-const newmaas =  maas <= 5500 ? `${maas*1.5}`:`${maas*1.1}`;
-console.log(`İncreased Salary ${newmaas}₺`);
+const salary = +prompt("Enter maas ")
+const newsalary =  salary <= 5500 ? `${salary*1.5}`:`${salary*1.1}`;
+console.log(`İncreased Salary ${newsalary}₺`);
