@@ -90,3 +90,5 @@ if (piece > 0) {
 } else {
   console.log("Not enter number, have a nice day");
 }
+
+// `${income-expense}` >= 5500 && `${income}` >= `${expense}` ? console.log("Credit is Given") : console.log("Credit not is Given");
